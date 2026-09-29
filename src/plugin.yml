@@ -1,0 +1,19 @@
+﻿name: TpsBarAlias
+version: 1.0.2
+main: org.yinwu.tpsbar.TpsBarPlugin
+api-version: '1.19'
+folia-supported: true
+authors: [YinwuRealm]
+description: 让 /tpsbar 等价于 Canvas 内置命令 /regionbar tps_bar
+commands:
+  tpsbar:
+    description: 切换自己的区域 TPS 条（等价于 /regionbar tps_bar）
+    usage: /tpsbar [玩家]
+    permission: tpsbar.use
+permissions:
+  tpsbar.use:
+    description: 允许使用 /tpsbar（仍需 Canvas 的 canvas.command.regionbar 权限）
+    default: true
+  tpsbar.others:
+    description: 允许用 /tpsbar <玩家> 切换他人的 TPS 条
+    default: op
