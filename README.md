@@ -90,3 +90,9 @@ TpsBarAlias/
   会找不到 `/regionbar`，此时 `/tpsbar` 会像普通未知命令一样失败。
 - `api-version: '1.19'` 是为了兼容性写的宽值，实际只在 Canvas 26.3 上验证过。
 - 不做 TPS 数据采集、不做显示样式定制 —— 那些都在 Canvas 里，改 `regionbar` 的配置生效。
+
+---
+
+## License | 许可证
+
+LGPL-3.0 —— 见 [LICENSE](LICENSE)。
